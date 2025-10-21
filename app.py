@@ -22,10 +22,7 @@ if GROQ_API_KEY and GROQ_API_KEY != "gsk_YOUR_API_KEY_HERE":
         
         # Test models in order of preference
         test_models = [
-            "llama-3.2-90b-text-preview",
-            "llama-3.1-70b-versatile", 
-            "mixtral-8x7b-32768",
-            "llama-3.1-8b-instant",
+            "llama-3.3-70b-versatile",
         ]
         
         print("🧪 Testing available models...")
